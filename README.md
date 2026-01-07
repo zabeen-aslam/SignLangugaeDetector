@@ -1,80 +1,78 @@
-**🖐️ Sign Language Detector**
+# 🖐️ Sign Language Detection Using Deep Learning
 
-**📌 Overview**
+## 📌 Overview
+This project implements a **Sign Language Detection system** using **Deep Learning and Computer Vision**.  
+A CNN model is trained to recognize hand gestures used in sign language from image data.
 
-The Sign Language Detector is a deep learning–based project that recognizes hand gestures used in sign language.
-It uses computer vision and a Convolutional Neural Network (CNN) model to classify gestures from images/video input.
+---
 
-This project aims to help bridge the communication gap between hearing-impaired individuals and the general public.
+## 🎯 Objectives
+- Detect and classify sign language gestures  
+- Train a CNN-based deep learning model  
+- Apply image preprocessing techniques  
+- Build a practical ML/DL project  
 
-**🎯 Objectives**
+---
 
-Detect and classify sign language hand gestures
+## 🛠️ Technologies Used
+- Python  
+- TensorFlow / Keras  
+- OpenCV  
+- NumPy  
+- Scikit-learn  
+- Jupyter Notebook  
 
-Train a CNN model for accurate gesture recognition
+---
 
-Apply computer vision techniques for preprocessing
-
-Build a practical ML/DL-based application
-
-🛠️ **Technologies & Tools Used**
-
-Python
-
-TensorFlow / Keras
-
-OpenCV
-
-NumPy
-
-Scikit-learn
-
-Jupyter Notebook
-
-📂 **Project Structure**
-
+## 📂 Project Structure
+```text
 SignLanguageDetector/
-│ 
-├── README.md 
-├── SignLangugaeDetectorS.ipynb   # Jupyter Notebook (training & testing)
-├── SignLangugaeDetector.py       # Python script
-├── SignLanguageCNN-small.h5      # Trained CNN model
-   
+├── README.md
+├── SignLanguageDetectorS.ipynb
+├── SignLanguageDetector.py
+└── SignLanguageCNN-small.h5
+```
+---
 
-**🔍 Methodology**
+## 🔍 Methodology
 
-Data Collection
+- Collected hand gesture image data
+- Preprocessed images (resizing, normalization)
+- Built a CNN model using convolution and pooling layers
+- Trained the model on labeled gesture data
+- Evaluated model performance using accuracy metrics
+  
+---
 
-Hand gesture images used for training and testing
+## 📊 Results
 
-Data Preprocessing
+- The model successfully classifies sign language gestures  
+- Achieved good accuracy on test data  
+- Performs well on unseen hand gesture images  
 
-Image resizing
+---
 
-Normalization
+## ▶️ How to Run the Project
+**Clone the repository**
 
-Noise reduction
+git clone https://github.com/zabeen-aslam/SignLanguageDetector.git
+cd SignLanguageDetector
 
-Model Building
+**Install dependencies**
 
-CNN architecture with convolutional & pooling layers
+pip install numpy opencv-python tensorflow scikit-learn   
+Run the notebook   
+jupyter notebook   
+Open SignLanguageDetectorS.ipynb and run all cells.   
 
-Fully connected layers for classification
+## 🚀 Future Improvements
 
-Model Training
+- Real-time gesture detection using webcam
+- Increase dataset size
+- Support more sign language gestures
+- Deploy as a web or mobile application
 
-Training on labeled gesture images
+---
+## 👤 Author
 
-Validation to reduce overfitting
-
-Evaluation
-
-Accuracy and loss metrics used to evaluate performance
-
-**📊 Results**
-
-The trained CNN model successfully classifies sign language gestures
-
-Achieved good accuracy on test data
-
-Model performs well on unseen hand gesture images
+Zabeen Aslam
